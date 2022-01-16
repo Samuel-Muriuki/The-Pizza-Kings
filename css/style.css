@@ -87,3 +87,22 @@
 .far {
     font-size: 12px;
 }
+
+
+/* Styling the about us section*/
+#aboutUs {
+    background-image: url(imgs/nice.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: left;
+    height: 40rem;
+    color:#ee9300;
+    font-family: "Poppins";
+}
+
+p strong {
+    text-decoration: underline;
+}
+
+
