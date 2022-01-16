@@ -2,12 +2,12 @@
 
 ##### By Samuel-Muriuki
 
-![Website Image](imgs/webpage/1.jpg)
-![Website Image](imgs/webpage/2.jpg)
-![Website Image](imgs/webpage/3.jpg)
-![Website Image](imgs/webpage/4.jpg)
-![Website Image](imgs/webpage/5.jpg)
-![Website Image](imgs/webpage/6.jpg)
+![Website Image](imgs/webpage/1.png)
+![Website Image](imgs/webpage/2.png)
+![Website Image](imgs/webpage/3.png)
+![Website Image](imgs/webpage/4.png)
+![Website Image](imgs/webpage/5.png)
+![Website Image](imgs/webpage/6.png)
 ### It is a description of the Website page.
 
 ## Table of Contents
