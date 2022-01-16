@@ -106,3 +106,28 @@ p strong {
 }
 
 
+
+/* Styling the footer and contact section */
+
+footer {
+    background-color: #000000;
+    border-radius: 200px 0px 0 0px;
+  }
+  
+  .form-control {
+    margin: 20px;
+  }
+  
+  .bx {
+    font-size: 30px;
+    color: #00eaff;
+    padding: 20px;
+  }
+  
+  .bx:hover {
+    color: #ee5a00;
+  }
+  
+  .socialMedia {
+    margin-left: 1000px;
+  }
