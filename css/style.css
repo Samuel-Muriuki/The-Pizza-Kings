@@ -2,7 +2,7 @@
 
 
 .headerSection {
-    background-image: url(imgs/bg.jpg);
+    background-image: url(../imgs/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -91,7 +91,7 @@
 
 /* Styling the about us section*/
 #aboutUs {
-    background-image: url(imgs/nice.jpg);
+    background-image: url(../imgs/nice.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
