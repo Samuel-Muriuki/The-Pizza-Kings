@@ -1,1 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,600&family=Roboto+Mono:ital,wght@1,700&display=swap');
+
+
+.headerSection {
+    background-image: url(imgs/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100rem;
+    text-align: center;
+  }
+  
+  .navbar {
+    font-size: 40px;
+  }
+  
+  .badge {
+    font-size: 12px; 
+    position: absolute;
+    bottom: 70px;
+    right: 38px;
+  }
+  
+  li {
+      font-family: 'Roboto';
+      font-weight: 600;
+      font-style: italic;
+  }
+  
+  .headerSection p {
+    font-family: "Poppins";
+    font-style: italic;
+    font-weight: 900;
+    color: #36a028;
+    font-size: 50px;
+    padding-top: 100px;
+  }
