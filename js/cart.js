@@ -26,9 +26,9 @@ $(function () {
     $(".makeDelivery").hide();
     $(".deliver").hide();
     $(".pickUp").hide();
-});
+    
 
-$("#checkout").click(function () {
+    $("#checkout").click(function () {
         let pizza = $(".pizza option:selected").val();
         let size = $("#size option:selected").val();
         let crust = $("#crust option:selected").val();
