@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="flexPop">
+        <div class="formArea" id="myCart">
+            <p>
+                Choose the pizza:
+                <select class="custom-select custom-select-md mb-3 pizza" id="size" required>
+                    <option value="cheese">Cheese Pizza</option>
+                    <option value="veggie">Veggie Pizza</option>
+                    <option value="pepperoni">Pepperoni Pizza</option>
+                    <option value="meat">Meat Pizza</option>
+                    <option value="margherita">Margherita Pizza</option>
+                    <option value="bbq">BBQ Pizza</option>
+                    <option value="hawaiian">Hawaiian Pizza</option>
+                    <option value="supreme">Supreme Pizza</option>
+                </select>
+
+                Choose pizza size:
+                <select class="custom-select custom-select-md mb-3" id="size" required>
+                    <option value="regular">Regular @ kshs. 1000</option>
+                    <option value="medium">Medium @ kshs. 1500</option>
+                    <option value="large">Large @ kshs. 2000</option>
+                </select>
+                Choose the crust:
+                <select class="custom-select custom-select-md mb-3" id="crust" required>
+                    <option value="stuffed">Stuffed Crust @ kshs. 110</option>
+                    <option value="thin">Thin Crust @ kshs. 130</option>
+                    <option value="flatbread">FlatBread Crust @ kshs. 150</option>
+                    <option value="cheese">Cheese Crust @ kshs. 170</option>
+                </select>
+                Choose the topping:
+                <select class="custom-select custom-select-md mb-3" id="toppings" required>
+                    <option value="onions">Onions @ kshs. 100</option>
+                    <option value="tomato">Tomato @ kshs. 120</option>
+                    <option value="mushroom">Gorgonzola andMushroom @ kshs. 140</option>
+                    <option value="broccoli">Broccoli @ kshs. 160</option>
+                </select>
+                <label for="number">Number of Pizza's</label>
+                <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
+            </p>
+            <a href="#summary">
+                <button type="submit" class="btn btn-warning checkout" id="checkout">Checkout</button>
+            </a>
+            
+        </div>
+        
+
+        <div class="order-summary" id="sum-order">
+            <h1 class="text-center" id="summary">Order Summary</h1>
+            <ol id="list" class="text-center sum text-info"> </ol>
+
+
+        </div>
+
+        <div class="makeDelivery">
+            <div class="row">
+                <div></div>
+                <form action="" class="form-group col-sm-6 data">
+                    <input type="text" class="form-control cdata" placeholder="Enter your Name:">
+                    <input type="text" class="form-control cdata" placeholder="Enter your phone number: ">
+                    <input type="text" class="form-control cdata" placeholder="Enter the location: ">
+                    <button class="btn btn-primary text-center">Make Delivery</button>
+                </form>
+
+            </div>
+        </div>
+
+        <div class="d-block mx-auto text-center">
+            <button class="deliver">Make Delivery</button>
+            <button class="pickUp">Pick Up</button>
+        </div>
+    </div>
+    <button id="cart" type="submit" class="btn btn-primary">Order</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
