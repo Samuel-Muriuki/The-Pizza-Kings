@@ -153,3 +153,11 @@ footer {
 .flexPop {
     display: flex;
 }
+
+.deliver {
+  display: none;
+}
+
+.pickUp {
+  display: none;
+}

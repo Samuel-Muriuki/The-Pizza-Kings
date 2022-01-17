@@ -1,11 +1,4 @@
-// B/S Logic
-//toggle between showing and hidding cart
-$(document).ready(function () {
-    $("#cart").click(function () {
-        $(".formArea").toggle();
-    });
-});
-
+// B/S logic
 $(document).ready(function () {
     $("#checkout").click(function () {
         $(".deliver").show();
@@ -19,14 +12,23 @@ $(".deliver").click(function () {
     $(".makeDelivery").show();
 });
 
+function order( pizza, size, crust, topping, number ){
+    this.pizza = pizza;
+    this.size = size;
+    this.crust = crust;
+    this.topping = topping;
+    this.number = number;
+  }
 
+ // UI logic
 $(function () {
     $(".summary").hide();
     $(".makeDelivery").hide();
     $(".deliver").hide();
     $(".pickUp").hide();
+});
 
-    $("#checkout").click(function () {
+$("#checkout").click(function () {
         let pizza = $(".pizza option:selected").val();
         let size = $("#size option:selected").val();
         let crust = $("#crust option:selected").val();
