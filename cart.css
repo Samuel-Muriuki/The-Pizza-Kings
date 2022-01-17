@@ -1,0 +1,31 @@
+
+  /*Styling the cart functionality*/
+  .formArea {
+    background: rgb(0, 0, 0);
+    box-sizing: border-box;
+    color: rgb(255, 214, 80);
+    height: 500px;
+    width: 500px;
+    padding: 50px;
+    margin: 80px;
+    border-radius: 8%;
+}
+
+#list {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Poppins" sans-serif;
+}
+
+.flexPop {
+    display: flex;
+}
+
+.deliver {
+  display: none;
+}
+
+.pickUp {
+  display: none;
+}
+

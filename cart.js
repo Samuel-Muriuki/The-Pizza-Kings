@@ -1,10 +1,11 @@
-// B/S logic
+// User Interface Logic
 $(document).ready(function () {
     $("#checkout").click(function () {
         $(".deliver").show();
         $(".pickUp").show();
     });
 });
+
 //Deliver
 $(".deliver").click(function () {
     $(".summary").show();
@@ -12,22 +13,12 @@ $(".deliver").click(function () {
     $(".makeDelivery").show();
 });
 
-function order( pizza, size, crust, topping, number ){
-    this.pizza = pizza;
-    this.size = size;
-    this.crust = crust;
-    this.topping = topping;
-    this.number = number;
-  }
-
- // UI logic
 $(function () {
     $(".summary").hide();
     $(".makeDelivery").hide();
     $(".deliver").hide();
     $(".pickUp").hide();
-    
-
+// Business Logic
     $("#checkout").click(function () {
         let pizza = $(".pizza option:selected").val();
         let size = $("#size option:selected").val();
